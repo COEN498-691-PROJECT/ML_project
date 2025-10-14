@@ -1,0 +1,3 @@
+LocalTimestamp,EmotiBitTimestamp,PacketNumber,DataLength,TypeTag,ProtocolVersion,DataReliability,SR
+1760382242.462325,1547350.000,58085,1,SR,1,100,0.933333
+1760382246.595245,1551483.000,58609,1,SR,1,100,0.066667
