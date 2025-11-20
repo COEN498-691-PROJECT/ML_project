@@ -1,13 +1,9 @@
-﻿# ML_project
+﻿# Investigation of Five Machine Learning Models for Human Activity Recognition
  ## Table of Contents
 
 - [Getting Started](#getting-started)
   - [Installation](#installation)
-- [Collaboration Guide](#collaboration-guide)
-  - [Step One: Sync the Latest Code](#step-one-sync-the-latest-code)
-  - [Step Two: Create a New Branch](#step-two-create-a-new-branch)
-  - [Step Three: Commit Your Changes](#step-three-commit-your-changes)
-  - [Step Four: Create a Pull Request (PR)](#step-four-create-a-pull-request-pr)
+  - [Collaborators](#collaborators)
 
 ## Getting Started
 
@@ -28,65 +24,15 @@ To get this project up and running on your local machine, please follow these st
     ```bash
     pip install
     ```
+### Collaborators
 
-## Collaboration Guide
+| Name   | Username |
+| -------- | ------- |
+| Laurie Anne Laberge  | P4SS3-P4RT0UT   |
+| Laura Hang | ssugarcane    |
+| Yunxing Tao   | aurora-tao   |
+| Mahsa Khatibi   | thisisminecraftvillager   |
 
-We welcome all forms of contribution! To ensure a smooth collaboration process, please follow this basic workflow.
 
-### Step One: Sync the Latest Code
-
-Before starting any new development work, make sure your local `main` branch (or other primary branch) is up-to-date with the remote repository.
-
-1.  Switch to the main branch:
-    ```bash
-    git checkout main
-    ```
-
-2.  Pull the latest changes from the remote repository:
-    ```bash
-    git pull origin main
-    ```
-
-### Step Two: Create a New Branch
-
-Create a new branch for your new feature or bug fix. Please follow a clear branch naming convention, for example:
-
--   New Feature: `feat/descriptive-feature-name` (e.g., `feat/user-authentication`)
-
-Create and switch to your new branch:
-
-```bash
-git checkout -b feat/your-new-feature
-```
-
-### Step Three: Commit Your Changes
-
-Make your code modifications and developments on your new branch. Once finished, commit your changes to your local repository.
-
-1.  Add your modified files to the staging area:
-    ```bash
-    git add .
-    ```
-
-2.  Commit your changes with a clear commit message:
-    ```bash
-    git commit -m "feat: Add user authentication feature"
-    ```
-    
-3.  Push your local branch to the remote repository:
-    ```bash
-    git push origin feat/your-new-feature
-    ```
-
-### Step Four: Create a Pull Request (PR)
-
-Once you have pushed your local branch to the remote repository, you can create a Pull Request (PR) on GitHub (or your chosen code hosting platform).
-
-1.  On your GitHub repository page, you will see a prompt regarding your recently pushed branch. Click the "Compare & pull request" button.
-2.  **Fill out the PR information**:
-    -   **Title**: Concisely describe the changes your PR introduces.
-    -   **Description**: Provide a detailed explanation of the changes you made, why you made them, and what problem they solve. If relevant, link to the corresponding issue.
-3.  **Assign Reviewers**: If the project has designated code reviewers, select them in the "Reviewers" section on the right.
-4.  Click the "Create pull request" button.
 
 
