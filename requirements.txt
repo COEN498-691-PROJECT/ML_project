@@ -1,3 +1,4 @@
+tfx
 numpy
 pandas
 scikit-learn
@@ -6,3 +7,5 @@ matplotlib
 seaborn
 jupyterlab
 scipy
+ipkernel
+notebook
