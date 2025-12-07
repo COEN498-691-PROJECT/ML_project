@@ -1,6 +1,31 @@
-NUMERIC_FEATURE_KEYS = ['ax','ay', 'az'] # timestamp is only used for windowing
-CATEGORICAL_FEATURE_KEYS = ['participant_id']
+
+NUMERICAL_FEATURES = [
+    'ax',
+    'ay',
+    'az', 
+    'timestamp'
+]
+
+# BUCKET_FEATURES = [
+#     ...
+# ]
+# # Number of buckets used by tf.transform for encoding each feature.
+# FEATURE_BUCKET_COUNT = 10
+
+CATEGORICAL_STRING_FEATURES = [
+    'participant_id'
+]
+
+# Number of vocabulary terms used for encoding categorical features.
+VOCAB_SIZE = 1000
+
+# Count of out-of-vocab buckets in which unrecognized categorical are hashed.
+# no bucket so set to 0
+OOV_SIZE = 0
+
+# Keys
 LABEL_KEY = 'activity_id'
 
-def transformed_name(key):
-    return key + '_xf'
+#rename feature keys to prevent clash with raw keys names
+def t_name(key):
+  return key + '_xf'
