@@ -9,9 +9,6 @@ if 'google.colab' in sys.modules:  # Testing to see if we're doing development
   importlib.reload(constants)
 
 _NUMERICAL_FEATURES = constants.NUMERICAL_FEATURES
-# _BUCKET_FEATURES = constants.BUCKET_FEATURES
-# _FEATURE_BUCKET_COUNT = constants.FEATURE_BUCKET_COUNT
-# _CATEGORICAL_NUMERICAL_FEATURES = constants.CATEGORICAL_NUMERICAL_FEATURES
 _CATEGORICAL_STRING_FEATURES = constants.CATEGORICAL_STRING_FEATURES
 _VOCAB_SIZE = constants.VOCAB_SIZE
 _OOV_SIZE = constants.OOV_SIZE
@@ -56,18 +53,8 @@ def preprocessing_fn(inputs):
     outputs[constants.t_name(key)] = tft.scale_to_z_score(
         fill_in_missing(inputs[key]), name=key)
 
-  #   for key in _BUCKET_FEATURES:
-  #     outputs[constants.t_name(key)] = tf.cast(tft.bucketize(
-  #             fill_in_missing(inputs[key]), _FEATURE_BUCKET_COUNT, name=key),
-  #             dtype=tf.float32)
-
     for key in _CATEGORICAL_STRING_FEATURES:
       outputs[constants.t_name(key)] = make_one_hot(fill_in_missing(inputs[key]), key)
-
-  #   for key in _CATEGORICAL_NUMERICAL_FEATURES:
-  #     outputs[constants.t_name(key)] = make_one_hot(tf.strings.strip(
-  #         tf.strings.as_string(fill_in_missing(inputs[key]))), key)
-
 
   # Convert label to int
   # 0: lying, 1: running, 2: sitting, 3: walking

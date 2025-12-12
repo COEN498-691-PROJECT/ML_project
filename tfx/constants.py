@@ -6,12 +6,6 @@ NUMERICAL_FEATURES = [
     'timestamp'
 ]
 
-# BUCKET_FEATURES = [
-#     ...
-# ]
-# # Number of buckets used by tf.transform for encoding each feature.
-# FEATURE_BUCKET_COUNT = 10
-
 CATEGORICAL_STRING_FEATURES = [
     'participant_id'
 ]
