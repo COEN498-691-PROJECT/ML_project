@@ -24,6 +24,44 @@ To get this project up and running on your local machine, please follow these st
     ```bash
     pip install
     ```
+
+
+### TensorFlow TFX Pipeline
+Video demo of the tfx pipeline: 
+
+1.  **Check python version**
+    Ensure it runs a version of python 3.9 (newer models may not work with tfx, we use Python 3.9)
+    ```bash
+    python --version
+    ```
+
+2.  **Run virtual environment, ex. .venv**
+    ```bash
+    source .venc/bin/activate
+    ```
+
+3.  **Run the first cell with the imports**
+
+4.  **Install dependencies**
+    ```bash
+    pip install
+    ```
+
+5.  **Run jupyter notebook**
+    ```bash
+    jupyter notebook
+    ```
+
+6.  **Go to the tfx folder**
+
+7.  **Open "TFX_pipeline.ipynb" file**
+
+8.  **Select Trust notebook**
+
+9.  **Run all cells or each cell one by one**
+    Warning may appear which can be ignored for the current project.
+
+
 ### Collaborators
 
 | Name   | Username |
