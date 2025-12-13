@@ -4,7 +4,7 @@
 - [Getting Started](#getting-started)
   - [Installation](#installation)
   - [TensorFlow TFX Pipeline](#tensorflow-tfx-pipeline)
-  - [Gradio Deployment](#tensorflow-tfx-pipeline)
+  - [Gradio Deployment](#gradio-deployment)
   - [Collaborators](#collaborators)
 
 ## Getting Started
@@ -86,6 +86,7 @@ Video demo of the gradio: https://drive.google.com/file/d/1cHgq4xRLhLxZSvIS9ztSx
 
 
 ---
+
 
 
 
