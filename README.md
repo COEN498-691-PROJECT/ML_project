@@ -67,8 +67,10 @@ This opens jupyter notebook locally on browser.
 It will take a few minutes to run all the cells. Warnings may appear which can be ignored for the current project. Each tfx component has an interactive table created with interactive context. The trainer has an interactive TensorBoard.
 
 
-### TensorFlow TFX Pipeline
-Video demo of the tfx pipeline: https://drive.google.com/file/d/1U2wrudpB5Su2tluR3CdlRmcPin3_H0_U/view?usp=sharing
+### Gradio Deployment
+Video demo of the gradio: https://drive.google.com/file/d/1cHgq4xRLhLxZSvIS9ztSxmdrOxEt4NLL/view?usp=sharing
+
+
 
 
 
