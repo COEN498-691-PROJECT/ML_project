@@ -68,9 +68,28 @@ This opens jupyter notebook locally on browser.
 It will take a few minutes to run all the cells. Warnings may appear which can be ignored for the current project. Each tfx component has an interactive table created with interactive context. The trainer has an interactive TensorBoard.
 
 
-### Gradio Deployment
+10.  ### Gradio Deployment
 Video demo of the gradio: https://drive.google.com/file/d/1cHgq4xRLhLxZSvIS9ztSxmdrOxEt4NLL/view?usp=sharing
 
+Quick Gradio Start Guide:
+Please follow the steps below to set up and launch the application in your environment.
+
+Step 1: Ensure Environment Setup. 
+Run the first code block to install the necessary library (gradio)
+
+Step 2: Mount Google Drive
+If the environment setup step did not automatically prompt or complete the process, run the designated code block, if necessary, to ensure Google Drive is mounted. This is required for accessing the application's model and dataset files.
+
+Step 3: Launch the Gradio Interface
+Run the final code block in your notebook. This code block defines the structure of the Gradio interface and starts the application service.
+
+Step 4: Open the Application in the Browser
+Once the Gradio launch command successfully executes in the notebook, Gradio will print a public URL in the console output.
+
+Example Output:
+
+Running on public URL: https://[unique_id].gradio.live
+Click this link (https://[unique_id].gradio.live) to access and use the application in your web browser. 
 
 
 
@@ -86,6 +105,7 @@ Video demo of the gradio: https://drive.google.com/file/d/1cHgq4xRLhLxZSvIS9ztSx
 
 
 ---
+
 
 
 
