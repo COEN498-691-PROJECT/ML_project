@@ -27,10 +27,12 @@ To get this project up and running on your local machine, please follow these st
 
 
 ### TensorFlow TFX Pipeline
-Video demo of the tfx pipeline: 
+Video demo of the tfx pipeline: https://drive.google.com/file/d/1U2wrudpB5Su2tluR3CdlRmcPin3_H0_U/view?usp=sharing
+
+For the best display, the file should be run on as instructed below. The program was originally opened on VS Code, then Jupyter Notebook. Google Collab may not run the program properly, since it defaults to a newer python version.
 
 1.  **Check python version**
-    Ensure it runs a version of python 3.9 (newer models may not work with tfx, we use Python 3.9)
+Ensure it runs a version of python 3.9 (newer models may not work with tfx, we use Python 3.9)
     ```bash
     python --version
     ```
@@ -48,6 +50,7 @@ Video demo of the tfx pipeline:
     ```
 
 5.  **Run jupyter notebook**
+This opens jupyter notebook locally on browser.
     ```bash
     jupyter notebook
     ```
@@ -59,7 +62,7 @@ Video demo of the tfx pipeline:
 8.  **Select Trust notebook**
 
 9.  **Run all cells or each cell one by one**
-    Warning may appear which can be ignored for the current project.
+It will take a few minutes to run all the cells. Warnings may appear which can be ignored for the current project. Each tfx component has an interactive table created with interactive context. The trainer has an interactive TensorBoard.
 
 
 ### Collaborators
