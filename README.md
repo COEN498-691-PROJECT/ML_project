@@ -1,9 +1,10 @@
-﻿# Investigation of Five Machine Learning Models for Human Activity Recognition
+﻿# Development of a Machine Learning Pipeline for Human Activity Recognition
  ## Table of Contents
 
 - [Getting Started](#getting-started)
   - [Installation](#installation)
   - [TensorFlow TFX Pipeline](#tensorflow-tfx-pipeline)
+  - [Gradio Deployment](#tensorflow-tfx-pipeline)
   - [Collaborators](#collaborators)
 
 ## Getting Started
@@ -85,5 +86,6 @@ Video demo of the gradio: https://drive.google.com/file/d/1cHgq4xRLhLxZSvIS9ztSx
 
 
 ---
+
 
 
