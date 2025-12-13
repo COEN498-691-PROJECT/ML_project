@@ -3,11 +3,13 @@
 
 - [Getting Started](#getting-started)
   - [Installation](#installation)
+  - [TensorFlow TFX Pipeline](#tensorflow-tfx-pipeline)
   - [Collaborators](#collaborators)
 
 ## Getting Started
 
-To get this project up and running on your local machine, please follow these steps.
+To get this project up and running on your local machine, please follow these steps.  
+Note: An older python version may be required to run tfx pipeline, see TensorFlow TFX Pipeline.
 
 ### Installation
 
